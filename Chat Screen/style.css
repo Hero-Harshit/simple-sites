@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /* New background pattern */
+    background-image: url('background.png'); 
+}
+
+.chat-app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #323f4b;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.chat-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.msg-box {
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+    width: fit-content;
+    max-width: 80%;
+}
+
+.sent {
+    background-color: #47a3f3;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.received {
+    background-color: #52606d;
+    align-self: flex-start;
+    text-align: left;
+}
