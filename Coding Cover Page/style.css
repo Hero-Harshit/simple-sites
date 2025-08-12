@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #000;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.cover-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background-color: #00000080;
+    border: 5px solid #48ee59;
+    padding: 60px 40px;
+    width: 100%;
+    max-width: 320px;
+}
+
+.card h1 {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.8rem;
+    line-height: 1.3;
+    margin: 0;
+}
