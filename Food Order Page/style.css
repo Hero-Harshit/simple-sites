@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.food-app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top-section {
+    flex-grow: 1;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom-card {
+    background-color: #f6c56e;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 40px 30px;
+    color: #323f4b;
+}
+
+.bottom-card h1 {
+    font-family: 'Bree Serif', serif;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+}
+
+.bottom-card p {
+    font-size: 1.15rem;
+    margin-bottom: 25px;
+    font-weight: 500;
+    line-height: 1.4;
+    max-width: 300px;
+}
+
+.bottom-card button {
+    background-color: #ffffff;
+    color: #323f4b;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
