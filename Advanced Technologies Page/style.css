@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tech-app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top-section {
+    flex-grow: 1;
+    background-image: url('Background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom-card {
+    background-color: #ffffff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 35px 25px;
+}
+
+.bottom-card h1 {
+    font-family: 'Bree Serif', serif;
+    color: #5752ab;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.bottom-card p {
+    color: #323f4b;
+    font-size: 1.05rem;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-learn {
+    background-color: #ffffff;
+    color: #171f46;
+    border: 1px solid #d7dfe9;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    flex: 1;
+}
+
+.btn-save {
+    background-color: #5752ab;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    flex: 1;
+}
