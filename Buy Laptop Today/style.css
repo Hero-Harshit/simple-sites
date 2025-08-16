@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.product-card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+    border-top: 5px solid #007bff;
+}
+.badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+h1 {
+    color: #333;
+    margin: 20px 0 10px 0;
+    font-size: 2.2rem;
+}
+.specs {
+    color: #6c757d;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+.description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.price-section {
+    margin-bottom: 30px;
+}
+.old-price {
+    text-decoration: line-through;
+    color: #adb5bd;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+.new-price {
+    color: #dc3545;
+    font-size: 2rem;
+    font-weight: 700;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+}
