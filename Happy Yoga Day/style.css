@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.yoga-container {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 600px;
+    box-shadow: 0 10px 30px rgba(46, 125, 50, 0.1);
+}
+h1 {
+    font-size: 3rem;
+    margin: 0 0 10px 0;
+}
+.msg {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.benefits {
+    text-align: left;
+    background-color: #f1f8e9;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.benefits h2 {
+    margin-top: 0;
+}
+ul {
+    padding-left: 20px;
+    margin: 0;
+    line-height: 1.6;
+}
+.quote {
+    font-style: italic;
+    color: #558b2f;
+    margin-bottom: 30px;
+}
+button {
+    background-color: #43a047;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
