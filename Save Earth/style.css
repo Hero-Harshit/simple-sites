@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f2f1;
+    color: #004d40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.earth-container {
+    background-color: white;
+    max-width: 600px;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 77, 64, 0.15);
+}
+h1 {
+    font-size: 2.8rem;
+    margin: 0 0 10px 0;
+}
+.intro {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.actions {
+    background-color: #b2dfdb;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.actions h2 {
+    margin-top: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+.quote {
+    font-style: italic;
+    font-weight: 700;
+    color: #00796b;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
