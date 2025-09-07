@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.testimonial-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+.stars {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.quote {
+    font-size: 1.1rem;
+    color: #454f5b;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.customer-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+h4 {
+    margin: 0 0 5px 0;
+    color: #212b36;
+}
+.customer-info p {
+    margin: 0;
+    color: #637381;
+    font-size: 0.9rem;
+}
